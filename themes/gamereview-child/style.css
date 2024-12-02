@@ -14,3 +14,35 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: twentytwentyfour
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+
+/* Style for Custom Query Loop Block */
+.custom-query-loop .wp-block-post-featured-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.custom-query-loop .wp-block-post-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.custom-query-loop .wp-block-post-excerpt {
+    font-size: 1rem;
+    color: #555;
+}
+
+.custom-query-loop .wp-block-post-link a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.custom-query-loop .wp-block-post-link a:hover {
+    background-color: #005880;
+}
