@@ -83,3 +83,15 @@ table th {
     background-color: #0073aa !important;
     color: #fff;
 }
+
+.wp-block-navigation-item .wp-block-navigation-link span {
+    color: black !important;
+}
+
+.post-navigation-link__title {
+    color: black !important;
+}
+
+.post-navigation-link__label {
+    color: skyblue !important;
+}

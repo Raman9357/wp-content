@@ -15,6 +15,13 @@ Text Domain: twentytwentyfour
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
+/* body {
+    background: #fff !important;
+}
+
+* {
+    color: #000;
+} */
 
 /* Style for Custom Query Loop Block */
 .custom-query-loop .wp-block-post-featured-image img {
@@ -45,4 +52,12 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 .custom-query-loop .wp-block-post-link a:hover {
     background-color: #005880;
+}
+
+.wp-block-navigation-item a:hover {
+    text-decoration: none !important;
+}
+
+.wp-block-navigation-item a span:hover {
+    text-decoration: none !important;
 }

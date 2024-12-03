@@ -10,6 +10,7 @@
     wp_enqueue_style( 
 		'child-style', 
 		get_parent_theme_file_uri() . '/style.css'
+		// get_stylesheet_directory_uri() . '/style.css'
 	);
  }
 
